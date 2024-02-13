@@ -63,7 +63,6 @@ int main()
     
     //display programmer's name,course,duedate
     cout<<"PROGRAMMER: Boa Kim"<<endl;
-    cout<<"CMSC 140 common project 2"<<endl;
-    cout<<"Due date:04 21 2021"<<endl<<endl;
-    
+
+  
 }
