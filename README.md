@@ -1,31 +1,49 @@
 
 # Converter Toolkit
 
-This program provides a simple toolkit for converting various units such as temperature, distance, and weight.
+This C++ program serves as a toolkit for converting various units including temperature, distance, and weight. It provides a user-friendly interface to input the desired conversion and displays the converted values accordingly.
 
-## Getting Started
+## Features
 
-To use this program, you need to have a C++ compiler installed on your system.
+- Convert temperature from Celsius to Fahrenheit
+- Convert distance from kilometers to miles
+- Convert weight from kilograms to pounds
+- Informative error handling for invalid inputs
+- Programmer name and project details displayed at the end
 
-### Prerequisites
+## How to Use
 
-- C++ compiler (e.g., g++)
-- Basic understanding of C++ programming
+1. Run the program.
+2. Enter the name of the country (optional).
+3. Choose the conversion option from the menu.
+4. Follow the prompts to enter the necessary information.
+5. View the converted value.
+6. Repeat steps 3-5 for additional conversions.
+7. Quit the program when finished.
 
-### Installing
+## Example
 
-No installation is required. Simply compile the program using your preferred C++ compiler.
+Enter a country name: USA
+Converter Toolkit
+Temperature Converter
+Distance Converter
+Weight Converter
+Quit
+Enter your choice (1-4): 2
+Please enter distance in kilometers: 10
+It is 6.00 miles
 
-## Usage
+USA sounds fun!!
 
-1. Run the compiled executable.
-2. Enter the name of the country.
-3. Choose the type of conversion from the menu:
-   - 1: Temperature Converter
-   - 2: Distance Converter
-   - 3: Weight Converter
-   - 4: Quit
-4. Follow the on-screen instructions to input values and perform conversions.
+PROGRAMMER: Boa Kim
 
-**PROGRAMMER: Boa Kim**
+graphql
+Copy code
 
+## Programmer
+
+This program was developed by Boa Kim.
+
+## Note
+
+Ensure to input valid data according to the specified conversion type. The program will handle invalid inputs gracefully and prompt for correct input.
